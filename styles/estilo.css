@@ -1,0 +1,136 @@
+:root {
+    --primario: #378637;
+    --secundario: rgb(3, 43, 3) ;
+    --fondo: coral;
+
+}
+
+/*body {
+    padding: 1em 2em 3em 4em;
+
+}*/
+
+/*<div>
+    <img class= "image" src="images/main2.jpeg">
+    </div>*/
+
+.titulo {
+    text-align: center;
+    color:green;
+    text-transform: capitalize;
+    font-size: 5rem;  
+    font-style: italic;  
+    font-family: 'Stick', sans-serif;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    /*background-color: darkseagreen;*/
+    background-image: url(../images/fotos-riosucio-7.jpg);
+    background-repeat: no-repeat;
+    background-size :cover;
+}
+
+.subtitulo {
+    text-align: center;
+    color:rgb(13, 0, 128);
+    text-transform: capitalize;
+    font-style: italic;  
+    font-family: 'Stick', sans-serif;
+    margin: auto;
+    font-size: 3rem;
+}
+.span {
+    color: brown;
+    text-align: center;
+    font-size: 1rem;
+    fill: coral;
+    animation: backwards;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+img {
+display: block;
+margin: auto;
+padding: 1rem;
+
+
+
+}
+
+.image div {
+    background-image: url(../images/main3.jpeg);
+
+}
+.image img{
+    width: 80rem;
+    height: 20rem;
+    margin: 0 auto 0 auto;
+    padding: 1rem    
+   
+    
+}
+.icono {
+    display: block;
+    margin: auto;
+    align-content: center;
+}
+label {
+    color: darkgoldenrod;
+    font-size: 1rem;
+    text-align: center;
+}
+legend {
+    color: rgb(23, 128, 23);
+    font-size: 2rem;
+    font-style: oblique;
+}
+fieldset {
+    color: rgb(79, 47, 47);
+    box-sizing: content-box;
+    
+}
+
+.contenedor div {
+    max-width: 60rem;
+    margin: auto;
+    background-color: rgb(73, 47, 107);
+    
+}
+
+.nav-bg a {
+    background-color: var(--secundario);
+    color: blanchedalmond;
+    text-decoration: none;
+    margin: auto;
+    padding: 1rem;
+    font-size: large;
+    
+}
+
+.navegacionppal {
+    color: cornsilk;
+    background-color: var(--secundario);
+    font-weight: bold;
+    text-align: center;
+    max-width: 100rem;
+    margin: 0 auto 0 auto;
+    text-decoration: none;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    
+    
+}
+.navegacionppal  a:hover {
+    color:black;
+    background-color: rgb(133, 131, 117);
+}
+
+@media (min-width: 760px) { 
+    .navegacionppal{
+        flex-direction: row;
+    }
+}
